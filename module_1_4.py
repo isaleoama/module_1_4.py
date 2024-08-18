@@ -3,6 +3,7 @@ def out_red(text):
     print("\033[36m{}".format(text))
 out_red("Организация программ и методы строк:")
 my_string = input('Напишите любой текст:')
+print (len(my_string))
 print(my_string)
 
 print(my_string . upper())
